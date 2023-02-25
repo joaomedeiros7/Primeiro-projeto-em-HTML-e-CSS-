@@ -1,0 +1,121 @@
+body {
+  background-color: #F0F0F0;
+}
+
+.cabecalho-publicacao {
+  background-color: #363636;
+  color: white;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  
+}
+
+.cabecalho-conteudo {
+  
+}
+
+.cabecalho-tags {
+  font-size: 10px;
+}
+
+.cabecalho-tag {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 6px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.cabecalho-titulo {
+  margin: 0;
+  padding-top: 14px;
+}
+
+.cabecalho-descricao {
+  margin: 0px;
+}
+
+.cabecalho-social-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 12px;
+}
+
+.cabecalho-perfil{
+  display: flex;
+  flex-direction: row;
+  flex-flow: row nowrap;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.cabecalho-perfil-foto {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}
+
+.cabecalho-perfil-info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecalho-perfil-nome {
+  font-size: 13px;
+  text-decoration: bolder;
+}
+
+.cabecalho-pefil-profissao {
+  
+}
+
+.cabecalho-perfil-data {
+  
+}
+
+.conteudo {
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+}
+
+.conteudo-foto {
+  padding-top: 15px;
+  height: 250px;
+  width: 1000px;
+}
+
+.data-conteudo {
+  background-color: #F7F7F7;
+  text-decoration: bold;
+  text-align: center;
+  font-size: 12px;
+}
+
+ul {
+  text-align: justify;
+}
+
+@media (max-width: 960px) {
+  .cabecalho-titulo {
+    margin-bottom: 8px;
+  }
+  
+  .cabecalho-publicacao {
+     padding-top: 32px;
+     padding-left: 48px;
+     padding-bottom: 32px;
+     padding-right: 16px;
+  }
+
+  .conteudo-foto {
+  width: 100%;
+  }
+}

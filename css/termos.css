@@ -1,0 +1,27 @@
+body {
+  background-color: #141414;
+  color: white;
+}
+
+.termos-uso {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}

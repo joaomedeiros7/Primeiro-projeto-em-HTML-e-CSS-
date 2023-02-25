@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <meta charset="utf-8">
+  <title> Dominique Ferreira Advocacia </title>
+  <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+  <link href="/css/contato.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+</head>
+  
+<body>
+<!-- inicio app-bar -->
+  <div class="app-bar">
+      <div>
+        <img src="/imagens/logo-DEF.svg" class="app-bar-logo"> 
+      </div>
+      <div>
+       <a href="/" class="app-bar-link"> INÍCIO </a>
+       <a href="/publicacoes/page-post.html" class="app-bar-link"> BLOG </a>
+       <a href="/" class="app-bar-link"> CONTATO </a>
+      </div>
+  </div>
+  <!-- final app-bar -->
+
+  <!-- contato início -->
+  <div class="contato">
+    <div class="contato-form">
+      <h3 class="contato-titulo">
+        Contato 
+      </h3>
+      <form class="contato-form2" action="https://getform.io/f/92f5df86-dc7a-4f33-8af2-8b870107d5eb" method="post">
+        <div class="formulario-item">
+          <label for="formulario-nome"> 
+            Nome Completo: 
+          </label>
+          <input type="text" placeholder="Insira seu nome" id="formulario-nome" name="formulario-nome" class="entrada-texto" required>
+        </div>
+        <br>
+        <div class="formulario-item">
+          <label for="formulario-email"> 
+            Email:
+          </label>
+          <input type="email" placeholder="Insira seu email" id="formulario-email" name="formulario-email" class="entrada-texto" maxlength="40" required>
+        </div> 
+        <br>
+        <div class="formulario-item">
+          <label for="formulario-telefone">
+            Telefone:
+          </label>
+          <input type="number" placeholder="Insira seu telefone" id="formulario-telefone" name="formulario-telefone" class="entrada-texto" maxlength="20" required>
+        </div>
+        <br>
+        <div class="formulario-item">
+          <label for="formulario-mensagem">
+            Mensagem:
+          </label>
+          <input type="textarea" placeholder="Insira sua mensagem" id="formulario-mensagem" name="formulario-mensagem" class="entrada-caixa-texto entrada-texto" minlength="130" maxlength="500" required>      
+            <br>
+        <div class="formulario-item">
+          <div class="formulario-termos">
+            <input type="checkbox" checked id="formulario-termos" name="formulario-termos" class="checkbox-reset">
+            <label for="formulario-termos">
+              Com o envio da mensagem, declaro que aceito os <a href="/html/termos.html"> termos de condições e uso</a>. 
+            </label>
+          </div>
+        </div>
+        <br>
+        <div class="formulario-item">
+          <input type="submit" value="Enviar" class="formulario-botao-enviar">
+        </div>
+      </form>
+    </div>
+  </div>
+<!-- contato fim-->
+
+    <div class="endereco-mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0763338647994!2d-46.65432768502201!3d-23.565701784680776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c79a182c8f%3A0x448d2be41b69febd!2sAv.%20Paulista%2C%20967%20-%2016%20andar%2C%20Sala%20A%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001311-100!5e0!3m2!1spt-BR!2sbr!4v1676598065969!5m2!1spt-BR!2sbr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  
+</body>
+  
+</html>
